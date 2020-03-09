@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::any('/redis1','TestController@redis1');
+Route::any('/redis2','TestController@redis2');
