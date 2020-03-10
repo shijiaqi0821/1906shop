@@ -16,6 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
+//redis
 Route::any('/redis1','TestController@redis1');
 Route::any('/redis2','TestController@redis2');
+//mysql
+Route::any('/my','TestController@my');
