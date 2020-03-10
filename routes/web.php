@@ -20,4 +20,4 @@ Route::get('/', function () {
 Route::any('/redis1','TestController@redis1');
 Route::any('/redis2','TestController@redis2');
 //mysql
-Route::any('/my','TestController@my');
+Route::any('/mysql1','TestController@mysql1');

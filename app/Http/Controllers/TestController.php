@@ -22,8 +22,7 @@ class TestController extends Controller
         echo "val:" . $val;
     }
     //MYSQL
-    public function my(){
-        echo 111;
+    public function mysql1(){
         $list = DB::table('register')->first();
         var_dump($list);
     }
